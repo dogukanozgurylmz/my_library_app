@@ -24,6 +24,7 @@ class MyLibraryApp extends StatelessWidget {
     return MaterialApp(
       title: 'myLibrary',
       theme: ThemeData(
+        useMaterial3: true,
         brightness: Brightness.dark,
         fontFamily: 'Ubuntu',
         colorScheme: const ColorScheme(
@@ -42,6 +43,7 @@ class MyLibraryApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       darkTheme: ThemeData(
+        useMaterial3: true,
         brightness: Brightness.dark,
         fontFamily: 'Ubuntu',
         colorScheme: const ColorScheme(
